@@ -6,14 +6,14 @@ with open("website.html") as file:
 soup: BeautifulSoup = BeautifulSoup(contents, 'html.parser')
 # soup = BeautifulSoup(contents, 'lxml')
 
-# print(soup.title) #<title>Angela's Personal Site</title>
-# print(soup.title.name) #title
-# print(soup.title.string) #Angela's Personal Site
-# print(soup) #print the whole html
-# print(soup.prettify()) #indent the soup HTML code; easier to read
-# print(soup.a) #gives the first anchor tag found in website
-# print(soup.li) #first li
-# print(soup.p) #first paragraph
+print(soup.title) #<title>Angela's Personal Site</title>
+print(soup.title.name) #title
+print(soup.title.string) #Angela's Personal Site
+print(soup) #print the whole html
+print(soup.prettify()) #indent the soup HTML code; easier to read
+print(soup.a) #gives the first anchor tag found in website
+print(soup.li) #first li
+print(soup.p) #first paragraph
 
 all_anchor_tags = soup.find_all(name = 'a')
 print(all_anchor_tags) #> [<a href="https://www.appbrewery.co/">The App Brewery</a>, <a href="https://angelabauer.github.io/cv/hobbies.html">My Hobbies</a>, <a href="https://angelabauer.github.io/cv/contact-me.html">Contact Me</a>]
