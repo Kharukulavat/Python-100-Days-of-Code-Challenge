@@ -9,3 +9,6 @@ The Python 100 Days of Code Challenge is a self-paced coding challenge aimed at 
 ## Repository Structure
 
 The repository is organized into folders for each day of the challenge.
+
+## Contributions and Feedback
+Contributions to this repository are encouraged and highly appreciated. If you find any issues, have suggestions for improvement, or want to add supplementary content, please feel free to open a pull request or contact me via social media platforms listed in my README.md file. Your feedback will help make this masterclass even better for future learners.
